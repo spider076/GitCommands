@@ -17,8 +17,6 @@ git push -u origin master
 rm -rf .git
 git remote remove origin
 
-
-
 git init: Initializes a new Git repository.
 git clone [repository URL]: Clones a remote Git repository to your local machine.
 git status: Shows the status of the working directory and staging area.
@@ -34,3 +32,5 @@ git merge [branch-name]: Merges the specified branch into the current branch.
 git log: Shows a log of all commits.
 git reset: Resets the current branch to the specified commit.
 git stash: Stashes changes that are not yet committed.
+
+git config --local user.email/ git config --system user.email / git config --global user.email : to fix the contribution count problem in git profile
