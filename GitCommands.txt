@@ -1,0 +1,36 @@
+Commands
+git init
+git status 
+git add "hello.txt"  //stage
+git add ./    //add all files
+git reset HEAD -- hello.txt  //unstage
+git commit -m "first"
+git log  //get logs
+get log --all  //get all logs
+git branch //check current branch
+git branch branch1  //make branch
+git checkout branch1 //put u into branch1
+git merge branch1 //put the branch1 in the master but u should be in master branch
+git branch -d branch1 //delete the branch
+git remote add origin <repository URL
+git push -u origin master
+rm -rf .git
+git remote remove origin
+
+
+
+git init: Initializes a new Git repository.
+git clone [repository URL]: Clones a remote Git repository to your local machine.
+git status: Shows the status of the working directory and staging area.
+git add [file]: Adds a file to the staging area.
+git commit -m "[message]": Commits changes with a descriptive message.
+git push: Pushes committed changes to a remote repository.
+git pull: Pulls changes from a remote repository to your local repository.
+git fetch: Fetches changes from a remote repository to your local repository without merging them.
+git branch: Lists all branches in the repository.
+git branch [branch-name]: Creates a new branch with the specified name.
+git checkout [branch-name]: Switches to the specified branch.
+git merge [branch-name]: Merges the specified branch into the current branch.
+git log: Shows a log of all commits.
+git reset: Resets the current branch to the specified commit.
+git stash: Stashes changes that are not yet committed.
