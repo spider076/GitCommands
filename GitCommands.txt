@@ -7,7 +7,8 @@ git reset HEAD -- hello.txt  //unstage
 git reset --hard f414f31 // will overwrite all the changes to the specified commit
 git commit -m "first"
 git log  //get logs
-get log --all  //get all logs
+git log --all  //get all logs
+git log --pretty=oneline //logs all the git commits one by one in a line
 git branch //check current branch
 git branch branch1  //make branch
 git checkout branch1 //put u into branch1
