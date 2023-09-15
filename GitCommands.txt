@@ -1,4 +1,4 @@
-Commands
+Commands 
 git init
 git status 
 git add "hello.txt"  //stage
