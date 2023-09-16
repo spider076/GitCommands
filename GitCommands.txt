@@ -1,7 +1,7 @@
 Commands 
 git init
 git status 
-git add "hello.txt"  //stage
+git add "hello.txt"  //stage 
 git add ./    //add all files
 git reset HEAD -- hello.txt  //unstage
 git reset --hard f414f31 // will overwrite all the changes to the specified commit
